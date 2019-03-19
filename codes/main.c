@@ -81,7 +81,7 @@ inline int delay(float d, int sense_active, int response){
 		{
 			force_sos = force_sos || PF4 == 0;
 			int res = button_handler();
-			if(response && (force_sos || res))
+			if(response && (res))
 				return 1;
 		}
   }
@@ -124,15 +124,15 @@ int idle()
 {
 	GPIO_PORTF_DATA_R &= ~0x0E;  // clear
 	GPIO_PORTF_DATA_R |= 0x02;  // flash LED as red
-	if (delay(0.5f, 1, 1))
+	if (delay(0.5f, ACTIVATE, ACTIVATE))
 		return clear_return();
 	GPIO_PORTF_DATA_R &= ~0x0E;  // clear
 	GPIO_PORTF_DATA_R |= 0x04;  // flash LED as blue
-	if(delay(1.0f, 1, 1))
+	if(delay(1.0f, ACTIVATE, ACTIVATE))
 		return clear_return();
 	GPIO_PORTF_DATA_R &= ~0x0E;  // clear
 	GPIO_PORTF_DATA_R |= 0x08;  // flash LED as green
-	if(delay(1.5f, 1, 1))
+	if(delay(1.5f, ACTIVATE, ACTIVATE))
 		return clear_return();
 	GPIO_PORTF_DATA_R &= ~0x0E;  // clear
 	

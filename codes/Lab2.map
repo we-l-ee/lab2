@@ -289,20 +289,20 @@ Image Symbol Table
     i.clear_return                           0x00000478   Section        0  main.o(i.clear_return)
     i.dash                                   0x00000494   Section        0  main.o(i.dash)
     i.delay                                  0x000004d8   Section        0  main.o(i.delay)
-    i.dot                                    0x00000554   Section        0  main.o(i.dot)
-    i.idle                                   0x00000598   Section        0  main.o(i.idle)
-    i.main                                   0x00000644   Section        0  main.o(i.main)
-    i.sos                                    0x0000070c   Section        0  main.o(i.sos)
-    x$fpl$dcmpinf                            0x00000746   Section       24  dcmpi.o(x$fpl$dcmpinf)
-    x$fpl$dfltu                              0x0000075e   Section       38  dflt_clz.o(x$fpl$dfltu)
-    x$fpl$dleqf                              0x00000784   Section      120  dleqf.o(x$fpl$dleqf)
-    x$fpl$dnaninf                            0x000007fc   Section      156  dnaninf.o(x$fpl$dnaninf)
-    x$fpl$drleqf                             0x00000898   Section      108  drleqf.o(x$fpl$drleqf)
-    x$fpl$ffixu                              0x00000904   Section       62  ffixu.o(x$fpl$ffixu)
-    x$fpl$fmul                               0x00000944   Section      258  fmul.o(x$fpl$fmul)
-    x$fpl$fnaninf                            0x00000a46   Section      140  fnaninf.o(x$fpl$fnaninf)
-    x$fpl$fretinf                            0x00000ad2   Section       10  fretinf.o(x$fpl$fretinf)
-    x$fpl$usenofp                            0x00000adc   Section        0  usenofp.o(x$fpl$usenofp)
+    i.dot                                    0x00000550   Section        0  main.o(i.dot)
+    i.idle                                   0x00000594   Section        0  main.o(i.idle)
+    i.main                                   0x00000640   Section        0  main.o(i.main)
+    i.sos                                    0x00000708   Section        0  main.o(i.sos)
+    x$fpl$dcmpinf                            0x00000742   Section       24  dcmpi.o(x$fpl$dcmpinf)
+    x$fpl$dfltu                              0x0000075a   Section       38  dflt_clz.o(x$fpl$dfltu)
+    x$fpl$dleqf                              0x00000780   Section      120  dleqf.o(x$fpl$dleqf)
+    x$fpl$dnaninf                            0x000007f8   Section      156  dnaninf.o(x$fpl$dnaninf)
+    x$fpl$drleqf                             0x00000894   Section      108  drleqf.o(x$fpl$drleqf)
+    x$fpl$ffixu                              0x00000900   Section       62  ffixu.o(x$fpl$ffixu)
+    x$fpl$fmul                               0x00000940   Section      258  fmul.o(x$fpl$fmul)
+    x$fpl$fnaninf                            0x00000a42   Section      140  fnaninf.o(x$fpl$fnaninf)
+    x$fpl$fretinf                            0x00000ace   Section       10  fretinf.o(x$fpl$fretinf)
+    x$fpl$usenofp                            0x00000ad8   Section        0  usenofp.o(x$fpl$usenofp)
     .data                                    0x20000000   Section       12  main.o(.data)
     .bss                                     0x2000000c   Section       96  libspace.o(.bss)
     HEAP                                     0x20000070   Section        0  startup.o(HEAP)
@@ -539,29 +539,29 @@ Image Symbol Table
     button_handler                           0x0000042d   Thumb Code    62  main.o(i.button_handler)
     clear_return                             0x00000479   Thumb Code    18  main.o(i.clear_return)
     dash                                     0x00000495   Thumb Code    60  main.o(i.dash)
-    delay                                    0x000004d9   Thumb Code   108  main.o(i.delay)
-    dot                                      0x00000555   Thumb Code    60  main.o(i.dot)
-    idle                                     0x00000599   Thumb Code   164  main.o(i.idle)
-    main                                     0x00000645   Thumb Code   180  main.o(i.main)
-    sos                                      0x0000070d   Thumb Code    58  main.o(i.sos)
-    __fpl_dcmp_Inf                           0x00000747   Thumb Code    24  dcmpi.o(x$fpl$dcmpinf)
-    __aeabi_ui2d                             0x0000075f   Thumb Code     0  dflt_clz.o(x$fpl$dfltu)
-    _dfltu                                   0x0000075f   Thumb Code    38  dflt_clz.o(x$fpl$dfltu)
-    __aeabi_cdcmple                          0x00000785   Thumb Code     0  dleqf.o(x$fpl$dleqf)
-    _dcmple                                  0x00000785   Thumb Code   120  dleqf.o(x$fpl$dleqf)
-    __fpl_dcmple_InfNaN                      0x000007e7   Thumb Code     0  dleqf.o(x$fpl$dleqf)
-    __fpl_dnaninf                            0x000007fd   Thumb Code   156  dnaninf.o(x$fpl$dnaninf)
-    __aeabi_cdrcmple                         0x00000899   Thumb Code     0  drleqf.o(x$fpl$drleqf)
-    _drcmple                                 0x00000899   Thumb Code   108  drleqf.o(x$fpl$drleqf)
-    __aeabi_f2uiz                            0x00000905   Thumb Code     0  ffixu.o(x$fpl$ffixu)
-    _ffixu                                   0x00000905   Thumb Code    62  ffixu.o(x$fpl$ffixu)
-    __aeabi_fmul                             0x00000945   Thumb Code     0  fmul.o(x$fpl$fmul)
-    _fmul                                    0x00000945   Thumb Code   258  fmul.o(x$fpl$fmul)
-    __fpl_fnaninf                            0x00000a47   Thumb Code   140  fnaninf.o(x$fpl$fnaninf)
-    __fpl_fretinf                            0x00000ad3   Thumb Code    10  fretinf.o(x$fpl$fretinf)
-    Region$$Table$$Base                      0x00000adc   Number         0  anon$$obj.o(Region$$Table)
-    __I$use$fp                               0x00000adc   Number         0  usenofp.o(x$fpl$usenofp)
-    Region$$Table$$Limit                     0x00000afc   Number         0  anon$$obj.o(Region$$Table)
+    delay                                    0x000004d9   Thumb Code   102  main.o(i.delay)
+    dot                                      0x00000551   Thumb Code    60  main.o(i.dot)
+    idle                                     0x00000595   Thumb Code   164  main.o(i.idle)
+    main                                     0x00000641   Thumb Code   180  main.o(i.main)
+    sos                                      0x00000709   Thumb Code    58  main.o(i.sos)
+    __fpl_dcmp_Inf                           0x00000743   Thumb Code    24  dcmpi.o(x$fpl$dcmpinf)
+    __aeabi_ui2d                             0x0000075b   Thumb Code     0  dflt_clz.o(x$fpl$dfltu)
+    _dfltu                                   0x0000075b   Thumb Code    38  dflt_clz.o(x$fpl$dfltu)
+    __aeabi_cdcmple                          0x00000781   Thumb Code     0  dleqf.o(x$fpl$dleqf)
+    _dcmple                                  0x00000781   Thumb Code   120  dleqf.o(x$fpl$dleqf)
+    __fpl_dcmple_InfNaN                      0x000007e3   Thumb Code     0  dleqf.o(x$fpl$dleqf)
+    __fpl_dnaninf                            0x000007f9   Thumb Code   156  dnaninf.o(x$fpl$dnaninf)
+    __aeabi_cdrcmple                         0x00000895   Thumb Code     0  drleqf.o(x$fpl$drleqf)
+    _drcmple                                 0x00000895   Thumb Code   108  drleqf.o(x$fpl$drleqf)
+    __aeabi_f2uiz                            0x00000901   Thumb Code     0  ffixu.o(x$fpl$ffixu)
+    _ffixu                                   0x00000901   Thumb Code    62  ffixu.o(x$fpl$ffixu)
+    __aeabi_fmul                             0x00000941   Thumb Code     0  fmul.o(x$fpl$fmul)
+    _fmul                                    0x00000941   Thumb Code   258  fmul.o(x$fpl$fmul)
+    __fpl_fnaninf                            0x00000a43   Thumb Code   140  fnaninf.o(x$fpl$fnaninf)
+    __fpl_fretinf                            0x00000acf   Thumb Code    10  fretinf.o(x$fpl$fretinf)
+    Region$$Table$$Base                      0x00000ad8   Number         0  anon$$obj.o(Region$$Table)
+    __I$use$fp                               0x00000ad8   Number         0  usenofp.o(x$fpl$usenofp)
+    Region$$Table$$Limit                     0x00000af8   Number         0  anon$$obj.o(Region$$Table)
     force_sos                                0x20000000   Data           4  main.o(.data)
     push_down_count                          0x20000004   Data           4  main.o(.data)
     prev_pf0                                 0x20000008   Data           4  main.o(.data)
@@ -576,9 +576,9 @@ Memory Map of the image
 
   Image Entry point : 0x0000026d
 
-  Load Region LR_1 (Base: 0x00000000, Size: 0x00000b08, Max: 0xffffffff, ABSOLUTE)
+  Load Region LR_1 (Base: 0x00000000, Size: 0x00000b04, Max: 0xffffffff, ABSOLUTE)
 
-    Execution Region ER_RO (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00000afc, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RO (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00000af8, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -644,38 +644,38 @@ Memory Map of the image
     0x0000042c   0x0000042c   0x0000004c   Code   RO           13    i.button_handler    main.o
     0x00000478   0x00000478   0x0000001c   Code   RO           14    i.clear_return      main.o
     0x00000494   0x00000494   0x00000044   Code   RO           15    i.dash              main.o
-    0x000004d8   0x000004d8   0x0000007c   Code   RO           16    i.delay             main.o
-    0x00000554   0x00000554   0x00000044   Code   RO           17    i.dot               main.o
-    0x00000598   0x00000598   0x000000ac   Code   RO           19    i.idle              main.o
-    0x00000644   0x00000644   0x000000c8   Code   RO           20    i.main              main.o
-    0x0000070c   0x0000070c   0x0000003a   Code   RO           21    i.sos               main.o
-    0x00000746   0x00000746   0x00000018   Code   RO          108    x$fpl$dcmpinf       fz_ws.l(dcmpi.o)
-    0x0000075e   0x0000075e   0x00000026   Code   RO           91    x$fpl$dfltu         fz_ws.l(dflt_clz.o)
-    0x00000784   0x00000784   0x00000078   Code   RO           97    x$fpl$dleqf         fz_ws.l(dleqf.o)
-    0x000007fc   0x000007fc   0x0000009c   Code   RO          110    x$fpl$dnaninf       fz_ws.l(dnaninf.o)
-    0x00000898   0x00000898   0x0000006c   Code   RO           99    x$fpl$drleqf        fz_ws.l(drleqf.o)
-    0x00000904   0x00000904   0x0000003e   Code   RO          101    x$fpl$ffixu         fz_ws.l(ffixu.o)
-    0x00000942   0x00000942   0x00000002   PAD
-    0x00000944   0x00000944   0x00000102   Code   RO          105    x$fpl$fmul          fz_ws.l(fmul.o)
-    0x00000a46   0x00000a46   0x0000008c   Code   RO          112    x$fpl$fnaninf       fz_ws.l(fnaninf.o)
-    0x00000ad2   0x00000ad2   0x0000000a   Code   RO          114    x$fpl$fretinf       fz_ws.l(fretinf.o)
-    0x00000adc   0x00000adc   0x00000000   Code   RO          116    x$fpl$usenofp       fz_ws.l(usenofp.o)
-    0x00000adc   0x00000adc   0x00000020   Data   RO          269    Region$$Table       anon$$obj.o
+    0x000004d8   0x000004d8   0x00000078   Code   RO           16    i.delay             main.o
+    0x00000550   0x00000550   0x00000044   Code   RO           17    i.dot               main.o
+    0x00000594   0x00000594   0x000000ac   Code   RO           19    i.idle              main.o
+    0x00000640   0x00000640   0x000000c8   Code   RO           20    i.main              main.o
+    0x00000708   0x00000708   0x0000003a   Code   RO           21    i.sos               main.o
+    0x00000742   0x00000742   0x00000018   Code   RO          108    x$fpl$dcmpinf       fz_ws.l(dcmpi.o)
+    0x0000075a   0x0000075a   0x00000026   Code   RO           91    x$fpl$dfltu         fz_ws.l(dflt_clz.o)
+    0x00000780   0x00000780   0x00000078   Code   RO           97    x$fpl$dleqf         fz_ws.l(dleqf.o)
+    0x000007f8   0x000007f8   0x0000009c   Code   RO          110    x$fpl$dnaninf       fz_ws.l(dnaninf.o)
+    0x00000894   0x00000894   0x0000006c   Code   RO           99    x$fpl$drleqf        fz_ws.l(drleqf.o)
+    0x00000900   0x00000900   0x0000003e   Code   RO          101    x$fpl$ffixu         fz_ws.l(ffixu.o)
+    0x0000093e   0x0000093e   0x00000002   PAD
+    0x00000940   0x00000940   0x00000102   Code   RO          105    x$fpl$fmul          fz_ws.l(fmul.o)
+    0x00000a42   0x00000a42   0x0000008c   Code   RO          112    x$fpl$fnaninf       fz_ws.l(fnaninf.o)
+    0x00000ace   0x00000ace   0x0000000a   Code   RO          114    x$fpl$fretinf       fz_ws.l(fretinf.o)
+    0x00000ad8   0x00000ad8   0x00000000   Code   RO          116    x$fpl$usenofp       fz_ws.l(usenofp.o)
+    0x00000ad8   0x00000ad8   0x00000020   Data   RO          269    Region$$Table       anon$$obj.o
 
 
-    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x00000afc, Size: 0x0000000c, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x00000af8, Size: 0x0000000c, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x00000afc   0x0000000c   Data   RW           22    .data               main.o
+    0x20000000   0x00000af8   0x0000000c   Data   RW           22    .data               main.o
 
 
-    Execution Region ER_ZI (Exec base: 0x2000000c, Load base: 0x00000b08, Size: 0x00000464, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_ZI (Exec base: 0x2000000c, Load base: 0x00000b04, Size: 0x00000464, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x2000000c        -       0x00000060   Zero   RW          143    .bss                c_w.l(libspace.o)
-    0x2000006c   0x00000b08   0x00000004   PAD
+    0x2000006c   0x00000b04   0x00000004   PAD
     0x20000070        -       0x00000000   Zero   RW            2    HEAP                startup.o
     0x20000070        -       0x00000400   Zero   RW            1    STACK               startup.o
 
@@ -687,11 +687,11 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       890        104          0         12          0       6211   main.o
+       886        106          0         12          0       6203   main.o
        692        632          0          0       1024        980   startup.o
 
     ----------------------------------------------------------------------
-      1582        736         32         12       1024       7191   Object Totals
+      1578        738         32         12       1024       7183   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          0          0          0          0          0          0   (incl. Padding)
 
@@ -751,15 +751,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      2780        772         32         12       1124       7555   Grand Totals
-      2780        772         32         12       1124       7555   ELF Image Totals
-      2780        772         32         12          0          0   ROM Totals
+      2776        774         32         12       1124       7547   Grand Totals
+      2776        774         32         12       1124       7547   ELF Image Totals
+      2776        774         32         12          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                 2812 (   2.75kB)
+    Total RO  Size (Code + RO Data)                 2808 (   2.74kB)
     Total RW  Size (RW Data + ZI Data)              1136 (   1.11kB)
-    Total ROM Size (Code + RO Data + RW Data)       2824 (   2.76kB)
+    Total ROM Size (Code + RO Data + RW Data)       2820 (   2.75kB)
 
 ==============================================================================
 
